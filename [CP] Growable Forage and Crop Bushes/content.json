@@ -44,7 +44,7 @@
 		"Blackberry Bush": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Adds a bush crop for salmonberries (if you have Custom Bush installed)."
+			"Description": "Adds a bush crop for blackberries (if you have Custom Bush installed)."
 		},
 		"Holly Bush": {
 			"AllowValues": "true, false",
@@ -140,7 +140,7 @@
 		{
 		"LogName": "Vanilla Forage Crops",
 		"Action": "Include",
-		"FromFile": "data/crops.json, data/fruittrees.json, data/objects.json, data/objectsreplacement.json, data/shop_dwarf.json, data/shop_islandtrader.json, data/shop_oasis.json, data/shop_pierre.json, data/teabushes.json,",
+		"FromFile": "data/crops.json, data/fruittrees.json, data/objects.json, data/objectsreplacement.json, data/shop_dwarf.json, data/shop_joja.json, data/shop_islandtrader.json, data/shop_oasis.json, data/shop_pierre.json, data/teabushes.json,",
 		},
 	]
 }

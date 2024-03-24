@@ -4,7 +4,7 @@
     {
       "Action": "EditData",
 	  "Target": "Data/Shops",
-      "TargetField": [ "SeedShop", "Items" ],
+      "TargetField": [ "Joja", "Items" ],
       //"When": {"Enable Essential Pack": true},
       "Entries": {
 		"Cornucopia_BasilSeeds": {
@@ -94,7 +94,7 @@
 		"Cornucopia_WatermelonSeeds": {
 			"Id": "Cornucopia_WatermelonSeeds",
 			"ItemId": "Cornucopia_WatermelonSeeds",
-			"Condition": "SEASON summer, YEAR 3",
+			"Condition": "SEASON fall, YEAR 3",
 			"IgnoreShopPriceModifiers": true,//"Price": 300,
 			
 		},
@@ -114,27 +114,27 @@
 		},
       },
 	  "MoveEntries": [
-			{ "Id": "Cornucopia_BasilSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_BellPepperSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_TurnipSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_CottonBollSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_CucumberSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_KiwiSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_LettuceSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_OliveSeeds", "BeforeId": "(O)628" },
-			{ "Id": "Cornucopia_OnionSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_PeanutSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_RaspberrySeeds", "BeforeId": "(O)628" },
-			{ "Id": "Cornucopia_VanillaSeeds", "BeforeId": "(O)628" },
-			{ "Id": "Cornucopia_WatermelonSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_ZucchiniSeeds", "BeforeId": "GrassStarter" }
+			{ "Id": "Cornucopia_BasilSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_BellPepperSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_TurnipSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_CottonBollSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_CucumberSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_KiwiSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_LettuceSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_OliveSeeds", "BeforeId": "(O)245" },
+			{ "Id": "Cornucopia_OnionSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_PeanutSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_RaspberrySeeds", "BeforeId": "(O)245" },
+			{ "Id": "Cornucopia_VanillaSeeds", "BeforeId": "(O)245" },
+			{ "Id": "Cornucopia_WatermelonSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_ZucchiniSeeds", "BeforeId": "(O)297" }
 		]
     },
    //Extended crops seeds
 	{
       "Action": "EditData",
 	  "Target": "Data/Shops",
-      "TargetField": [ "SeedShop", "Items" ],
+      "TargetField": [ "Joja", "Items" ],
       "When": {
         "Enable Extended Crops Pack": true
       },
@@ -413,51 +413,51 @@
 		}*/
       },
 	  "MoveEntries": [
-			{ "Id": "Cornucopia_AdzukiBeanSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_AsparagusSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_BambooSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_BarleySeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_BlackBeansSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_BlackCurrantsSeeds", "BeforeId": "(O)628" },
-			{ "Id": "Cornucopia_BuckwheatSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_ButternutSquashSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_CabbageSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_CanaryMelonSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_CanolaFlowerSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_CantaloupeSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_CassavaSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_CelerySeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_ChickpeaSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_DaikonSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_DurumSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_ElderberriesSeeds", "BeforeId": "(O)628" },
-			{ "Id": "Cornucopia_GooseberrySeeds", "BeforeId": "(O)628" },
-			{ "Id": "Cornucopia_GreenPeasSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_GroundcherriesSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_HabaneroSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_HoneydewSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_JalapenoSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_JuniperBerriesSeeds", "BeforeId": "(O)628" },
-			{ "Id": "Cornucopia_KidneyBeansSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_NavyBeansSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_OatsSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_OkraSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_PassionFruitSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_PintoBeansSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_QuinoaSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_RedOnionSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_ShallotSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_SpinachSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_SugarBeetSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_SweetPotatoSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_WasabiRootSeeds", "BeforeId": "GrassStarter" },
+			{ "Id": "Cornucopia_AdzukiBeanSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_AsparagusSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_BambooSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_BarleySeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_BlackBeansSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_BlackCurrantsSeeds", "BeforeId": "(O)245" },
+			{ "Id": "Cornucopia_BuckwheatSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_ButternutSquashSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_CabbageSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_CanaryMelonSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_CanolaFlowerSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_CantaloupeSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_CassavaSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_CelerySeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_ChickpeaSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_DaikonSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_DurumSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_ElderberriesSeeds", "BeforeId": "(O)245" },
+			{ "Id": "Cornucopia_GooseberrySeeds", "BeforeId": "(O)245" },
+			{ "Id": "Cornucopia_GreenPeasSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_GroundcherriesSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_HabaneroSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_HoneydewSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_JalapenoSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_JuniperBerriesSeeds", "BeforeId": "(O)245" },
+			{ "Id": "Cornucopia_KidneyBeansSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_NavyBeansSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_OatsSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_OkraSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_PassionFruitSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_PintoBeansSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_QuinoaSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_RedOnionSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_ShallotSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_SpinachSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_SugarBeetSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_SweetPotatoSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_WasabiRootSeeds", "BeforeId": "(O)297" },
 		]
     },
 	//Extended crops seeds - white grapes (unique)
 	{
       "Action": "EditData",
 	  "Target": "Data/Shops",
-      "TargetField": [ "SeedShop", "Items" ],
+      "TargetField": [ "Joja", "Items" ],
       "When": {
         "Enable Extended Crops Pack": true,
 		"Disable Grape Bushes": false
@@ -472,13 +472,13 @@
 		}
       },
 	  "MoveEntries": [
-			{ "Id": "Cornucopia_WhiteGrapeSeeds", "BeforeId": "(O)628" }
+			{ "Id": "Cornucopia_WhiteGrapeSeeds", "BeforeId": "(O)245" }
 		]
     },
 	{
       "Action": "EditData",
 	  "Target": "Data/Shops",
-      "TargetField": [ "SeedShop", "Items" ],
+      "TargetField": [ "Joja", "Items" ],
       "When": {
         "Enable Extended Crops Pack": true,
 		"Disable Grape Bushes": true
@@ -493,14 +493,14 @@
 		}
       },
 	  "MoveEntries": [
-			{ "Id": "Cornucopia_WhiteGrapeSeeds", "BeforeId": "GrassStarter" }
+			{ "Id": "Cornucopia_WhiteGrapeSeeds", "BeforeId": "(O)297" }
 		]
     },
    //Herb crop seeds
 	{
       "Action": "EditData",
 	  "Target": "Data/Shops",
-      "TargetField": [ "SeedShop", "Items" ],
+      "TargetField": [ "Joja", "Items" ],
       "When": {
         "Enable Herbs Pack": true
       },
@@ -654,220 +654,28 @@
 		}
       },
 	  "MoveEntries": [
-			{ "Id": "Cornucopia_AloeSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_BayLeavesSeeds", "BeforeId": "(O)628" },
-			{ "Id": "Cornucopia_ChivesSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_CilantroSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_CuminSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_DillSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_FennelSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_FenugreekSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_LemongrassSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_LicoriceRootSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_MarjoramSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_MintSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_OreganoSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_ParsleySeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_PerillaLeavesSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_RosemarySeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_SageSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_TarragonSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_ThymeSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_TurmericSeeds", "BeforeId": "GrassStarter" },
-			{ "Id": "Cornucopia_WormwoodSeeds", "BeforeId": "GrassStarter" }
+			{ "Id": "Cornucopia_AloeSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_BayLeavesSeeds", "BeforeId": "(O)245" },
+			{ "Id": "Cornucopia_ChivesSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_CilantroSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_CuminSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_DillSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_FennelSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_FenugreekSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_LemongrassSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_LicoriceRootSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_MarjoramSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_MintSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_OreganoSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_ParsleySeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_PerillaLeavesSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_RosemarySeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_SageSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_TarragonSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_ThymeSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_TurmericSeeds", "BeforeId": "(O)297" },
+			{ "Id": "Cornucopia_WormwoodSeeds", "BeforeId": "(O)297" }
 		]
-    },
-   //Essential tree saplings
-	{
-      "Action": "EditData",
-	  "Target": "Data/Shops",
-      "TargetField": [ "SeedShop", "Items" ],
-      //"When": {"Enable Essential Pack": true},
-	  "Entries": {
-		"Cornucopia_AvocadoSapling": {
-			"Id": "Cornucopia_AvocadoSapling",
-			"ItemId": "Cornucopia_AvocadoSapling",
-			"Condition": "YEAR 2",
-			//"IgnoreShopPriceModifiers": true,//"Price": 8000,
-			"ApplyProfitMargins": false,
-		},
-		"Cornucopia_CocoaPodSapling": {
-			"Id": "Cornucopia_CocoaPodSapling",
-			"ItemId": "Cornucopia_CocoaPodSapling",
-			"Condition": "YEAR 2",
-			//"IgnoreShopPriceModifiers": true,//"Price": 5000,
-			"ApplyProfitMargins": false,
-		},
-		"Cornucopia_PearSapling": {
-			"Id": "Cornucopia_PearSapling",
-			"ItemId": "Cornucopia_PearSapling",
-			"Condition": "YEAR 2",
-			//"IgnoreShopPriceModifiers": true,//"Price": 5500,
-			"ApplyProfitMargins": false,
-		},
-		"Cornucopia_PistachioSapling": {
-			"Id": "Cornucopia_PistachioSapling",
-			"ItemId": "Cornucopia_PistachioSapling",
-			"Condition": "YEAR 3",
-			//"IgnoreShopPriceModifiers": true,//"Price": 3750,
-			"ApplyProfitMargins": false,
-		}
-      },
-	  "MoveEntries": [
-			{ "Id": "Cornucopia_AvocadoSapling", "BeforeId": "(O)458" },
-			{ "Id": "Cornucopia_CocoaPodSapling", "BeforeId": "(O)458" },
-			{ "Id": "Cornucopia_PearSapling", "BeforeId": "(O)458" },
-			{ "Id": "Cornucopia_PistachioSapling", "BeforeId": "(O)458" }
-		]
-    },
-   //Extended tree saplings
-	{
-      "Action": "EditData",
-	  "Target": "Data/Shops",
-      "TargetField": [ "SeedShop", "Items" ],
-      "When": {
-        "Enable Extended Crops Pack": true
-      },
-	  "Entries": {
-		"Cornucopia_AlmondSapling": {
-			"Id": "Cornucopia_AlmondSapling",
-			"ItemId": "Cornucopia_AlmondSapling",
-			"Condition": "YEAR 3",
-			//"IgnoreShopPriceModifiers": true,//"Price": 3750,
-			"ApplyProfitMargins": false,
-		},
-		"Cornucopia_CashewSapling": {
-			"Id": "Cornucopia_CashewSapling",
-			"ItemId": "Cornucopia_CashewSapling",
-			"Condition": "YEAR 3",
-			//"IgnoreShopPriceModifiers": true,//"Price": 4000,
-			"ApplyProfitMargins": false,
-		},
-		"Cornucopia_FigSapling": {
-			"Id": "Cornucopia_FigSapling",
-			"ItemId": "Cornucopia_FigSapling",
-			"Condition": "YEAR 2",
-			//"IgnoreShopPriceModifiers": true,//"Price": 4000,
-			"ApplyProfitMargins": false,
-		},
-		"Cornucopia_GrapefruitSapling": {
-			"Id": "Cornucopia_GrapefruitSapling",
-			"ItemId": "Cornucopia_GrapefruitSapling",
-			"Condition": "YEAR 2",
-			//"IgnoreShopPriceModifiers": true,//"Price": 6000,
-			"ApplyProfitMargins": false,
-		},
-		"Cornucopia_LemonSapling": {
-			"Id": "Cornucopia_LemonSapling",
-			"ItemId": "Cornucopia_LemonSapling",
-			//"IgnoreShopPriceModifiers": true,//"Price": 2000,
-			"ApplyProfitMargins": false,
-		},
-		"Cornucopia_LimeSapling": {
-			"Id": "Cornucopia_LimeSapling",
-			"ItemId": "Cornucopia_LimeSapling",
-			//"IgnoreShopPriceModifiers": true,//"Price": 2000,
-			"ApplyProfitMargins": false,
-		},
-		"Cornucopia_NectarineSapling": {
-			"Id": "Cornucopia_NectarineSapling",
-			"ItemId": "Cornucopia_NectarineSapling",
-			"Condition": "YEAR 2",
-			//"IgnoreShopPriceModifiers": true,//"Price": 6000,
-			"ApplyProfitMargins": false,
-		},
-		"Cornucopia_PecanSapling": {
-			"Id": "Cornucopia_PecanSapling",
-			"ItemId": "Cornucopia_PecanSapling",
-			"Condition": "YEAR 3",
-			//"IgnoreShopPriceModifiers": true,//"Price": 5000,
-			"ApplyProfitMargins": false,
-		},
-		"Cornucopia_PersimmonSapling": {
-			"Id": "Cornucopia_PersimmonSapling",
-			"ItemId": "Cornucopia_PersimmonSapling",
-			//"IgnoreShopPriceModifiers": true,//"Price": 7000,
-			"ApplyProfitMargins": false,
-		},
-		"Cornucopia_PomeloSapling": {
-			"Id": "Cornucopia_PomeloSapling",
-			"ItemId": "Cornucopia_PomeloSapling",
-			"Condition": "YEAR 2",
-			//"IgnoreShopPriceModifiers": true,//"Price": 3400,
-			"ApplyProfitMargins": false,
-		},
-		"Cornucopia_UmeSapling": {
-			"Id": "Cornucopia_UmeSapling",
-			"ItemId": "Cornucopia_UmeSapling",
-			//"IgnoreShopPriceModifiers": true,//"Price": 2000,
-			"ApplyProfitMargins": false,
-		},
-		"Cornucopia_WalnutSapling": {
-			"Id": "Cornucopia_WalnutSapling",
-			"ItemId": "Cornucopia_WalnutSapling",
-			"Condition": "YEAR 3",
-			//"IgnoreShopPriceModifiers": true,//"Price": 3750,
-			"ApplyProfitMargins": false,
-		},
-		"Cornucopia_YuzuSapling": {
-			"Id": "Cornucopia_YuzuSapling",
-			"ItemId": "Cornucopia_YuzuSapling",
-			//"IgnoreShopPriceModifiers": true,//"Price": 2000,
-			"ApplyProfitMargins": false,
-		}
-      },
-	  "MoveEntries": [
-			{ "Id": "Cornucopia_AlmondSapling", "BeforeId": "(O)458" },
-			{ "Id": "Cornucopia_CashewSapling", "BeforeId": "(O)458" },
-			{ "Id": "Cornucopia_FigSapling", "BeforeId": "(O)458" },
-			{ "Id": "Cornucopia_GrapefruitSapling", "BeforeId": "(O)458" },
-			{ "Id": "Cornucopia_LemonSapling", "BeforeId": "(O)458" },
-			{ "Id": "Cornucopia_LimeSapling", "BeforeId": "(O)458" },
-			{ "Id": "Cornucopia_NectarineSapling", "BeforeId": "(O)458" },
-			{ "Id": "Cornucopia_PecanSapling", "BeforeId": "(O)458" },
-			{ "Id": "Cornucopia_PersimmonSapling", "BeforeId": "(O)458" },
-			{ "Id": "Cornucopia_PomeloSapling", "BeforeId": "(O)458" },
-			{ "Id": "Cornucopia_UmeSapling", "BeforeId": "(O)458" },
-			{ "Id": "Cornucopia_WalnutSapling", "BeforeId": "(O)458" },
-			{ "Id": "Cornucopia_YuzuSapling", "BeforeId": "(O)458" }
-		]
-    },
-   //Herbs tree saplings
-	{
-      "Action": "EditData",
-	  "Target": "Data/Shops",
-      "TargetField": [ "SeedShop", "Items" ],
-      "When": {
-        "Enable Herbs Pack": true
-      },
-	  "Entries": {
-		"Cornucopia_CamphorLeavesSapling": {
-			"Id": "Cornucopia_CamphorLeavesSapling",
-			"ItemId": "Cornucopia_CamphorLeavesSapling",
-			"Condition": "YEAR 3",
-			//"IgnoreShopPriceModifiers": true,//"Price": 4000,
-			"ApplyProfitMargins": false,
-		},
-		"Cornucopia_CinnamonSticksSapling": {
-			"Id": "Cornucopia_CinnamonSticksSapling",
-			"ItemId": "Cornucopia_CinnamonSticksSapling",
-			"Condition": "YEAR 2",
-			//"IgnoreShopPriceModifiers": true,//"Price": 6000,
-			"ApplyProfitMargins": false,
-		},
-		"Cornucopia_EucalyptusLeavesSapling": {
-			"Id": "Cornucopia_EucalyptusLeavesSapling",
-			"ItemId": "Cornucopia_EucalyptusLeavesSapling",
-			"Condition": "YEAR 2",
-			//"IgnoreShopPriceModifiers": true,//"Price": 5500,
-			"ApplyProfitMargins": false,
-		}
-      },
-	  "MoveEntries": [
-			{ "Id": "Cornucopia_CamphorLeavesSapling", "BeforeId": "(O)458" },
-			{ "Id": "Cornucopia_CinnamonSticksSapling", "BeforeId": "(O)458" },
-			{ "Id": "Cornucopia_EucalyptusLeavesSapling", "BeforeId": "(O)458" }
-		]
-    },
+    }
   ]
 }
