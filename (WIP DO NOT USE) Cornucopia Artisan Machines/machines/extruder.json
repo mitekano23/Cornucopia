@@ -1,7 +1,6 @@
 {
 	"Changes":
 	[
-		// add custom machines
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -11,6 +10,22 @@
 						{
 							"OutputRules":
 								[
+									{
+										"Id": "Cornucopia_Beeswax",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)340",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_Beeswax",
+												}
+											],
+										"MinutesUntilReady": 300,
+									},
 									{
 										"Id": "Cornucopia_RiceNoodles",
 										"Triggers": 
@@ -26,22 +41,6 @@
 												}
 											],
 										"MinutesUntilReady": 360,
-									},
-									{
-										"Id": "Cornucopia_TapiocaPearls",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)Cornucopia_TapiocaFlour",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)Cornucopia_TapiocaPearls",
-												}
-											],
-										"MinutesUntilReady": 1750,
 									},
 									{
 										"Id": "Cornucopia_WheatNoodles",

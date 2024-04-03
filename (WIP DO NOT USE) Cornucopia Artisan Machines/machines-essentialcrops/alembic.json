@@ -11,7 +11,7 @@
 					"Triggers": 
 						[
 							{
-								"RequiredItemId": "(O)167",
+								"RequiredItemId": "(O)Cornucopia_Vanilla",
 							}
 						],
 					"OutputItem":
@@ -21,10 +21,10 @@
 							}
 						],
 					"MinutesUntilReady": 360,
-				}
+				},
 			},
 			"MoveEntries": [
-					{ "Id": "Cornucopia_VanillaExtract", "BeforeId": "Cornucopia_ProduceEssentialOil" }
+				{ "Id": "Cornucopia_VanillaExtract", "BeforeId": "Cornucopia_EssentialOil" }
 			]
 		}
     ]

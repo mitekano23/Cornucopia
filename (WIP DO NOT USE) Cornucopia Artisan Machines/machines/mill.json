@@ -1,7 +1,6 @@
 {
 	"Changes":
 	[
-		// add custom mill recipes
 		{
 			"Action": "EditData",
 			"Target": "Data/Buildings",
@@ -38,23 +37,6 @@
 								[
 									{
 										"ItemId": "(O)Cornucopia_RiceFlour"
-									}
-								],
-							"MaxDailyConversions": -1
-						},
-					"Cornucopia_TaroFlour": 
-						{
-							"Id": "Cornucopia_TaroFlour",
-							"SourceChest": "Input",
-							"DestinationChest": "Output",
-							"RequiredTags": 
-								[
-									"id_o_830"
-								],
-							"ProducedItems":
-								[
-									{
-										"ItemId": "(O)Cornucopia_TaroFlour"
 									}
 								],
 							"MaxDailyConversions": -1

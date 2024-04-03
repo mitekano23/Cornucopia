@@ -1,7 +1,6 @@
 {
 	"Changes":
 	[
-		// add custom machines
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -27,6 +26,9 @@
 					"Id": "Cornucopia_SpicyMayonnaise",
 					"Triggers": 
 						[
+							{
+								"RequiredItemId": "(O)260",
+							},
 							{
 								"RequiredTags":[ "chili_item" ],
 							}

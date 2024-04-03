@@ -1,7 +1,6 @@
 {
 	"Changes":
 	[
-		// add custom machines
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -13,13 +12,26 @@
 						[
 							{
 								"RequiredItemId": "(O)406",
-								"RequiredCount": 3,
+								"RequiredCount": 5,
 							}
 						],
 					"OutputItem":
 						[
 							{
 								"ItemId": "(O)Cornucopia_Prunes",
+								"CopyPrice": true,
+								"PriceModifierMode": "Stack",
+								"PriceModifiers": [
+										{
+											"Modification": "Multiply",
+											"Amount": 7.5,
+										},
+										{
+											"Modification": "Add",
+											"Amount": 25,
+										},
+										
+								],
 							}
 						],
 					"MinutesUntilReady": 1750,
@@ -37,9 +49,88 @@
 						[
 							{
 								"ItemId": "(O)Raisins",
+								"CopyPrice": true,
+								"PriceModifierMode": "Stack",
+								"PriceModifiers": [
+										{
+											"Modification": "Multiply",
+											"Amount": 7.5,
+										},
+										{
+											"Modification": "Add",
+											"Amount": 25,
+										},
+										
+								],
 							}
 						],
 					"MinutesUntilReady": 1750,
+				},
+				"Cornucopia_DriedHerb": {
+					"Id": "Cornucopia_DriedHerb",
+					"Triggers": 
+						[
+							{
+								"RequiredTags":[ "herb_item" ],
+								"RequiredCount": 5,
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_DriedHerb",
+								"ObjectInternalName": "{0} {{i18n:DriedHerb_name}}",
+								"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_DriedHerb %PRESERVED_DISPLAY_NAME]",
+								"PreserveId": "DROP_IN",
+								"CopyPrice": true,
+								"PriceModifierMode": "Stack",
+								"PriceModifiers": [
+										{
+											"Modification": "Multiply",
+											"Amount": 7.5,
+										},
+										{
+											"Modification": "Add",
+											"Amount": 25,
+										},
+										
+								],
+							}
+						],
+					"MinutesUntilReady": 1440,
+				},
+				"Cornucopia_DriedFlower": {
+					"Id": "Cornucopia_DriedFlower",
+					"Triggers": 
+						[
+							{
+								"RequiredTags":[ "category_flower" ],
+								"RequiredCount": 5,
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_DriedFlower",
+								"ObjectInternalName": "{0} {{i18n:DriedFlower_name}}",
+								"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_DriedFlower %PRESERVED_DISPLAY_NAME]",
+								"PreserveId": "DROP_IN",
+								"CopyPrice": true,
+								"PriceModifierMode": "Stack",
+								"PriceModifiers": [
+										{
+											"Modification": "Multiply",
+											"Amount": 7.5,
+										},
+										{
+											"Modification": "Add",
+											"Amount": 25,
+										},
+										
+								],
+							}
+						],
+					"MinutesUntilReady": 1440,
 				},
 				"Cornucopia_DriedVegetable": {
 					"Id": "Cornucopia_DriedVegetable",
@@ -54,28 +145,31 @@
 						[
 							{
 								"ItemId": "(O)Cornucopia_DriedVegetable",
-								"ObjectInternalName": "{0} {{i18n:DriedVegetable_name}}",,
+								"ObjectInternalName": "{0} {{i18n:DriedVegetable_name}}",
 								"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_DriedVegetable %PRESERVED_DISPLAY_NAME]",
 								"PreserveId": "DROP_IN",
 								"CopyPrice": true,
-								"PriceModifiers":
-									[
+								"PriceModifierMode": "Stack",
+								"PriceModifiers": [
 										{
-											"Id": "DriedVegetable",
 											"Modification": "Multiply",
 											"Amount": 7.5,
-										}
-									],
+										},
+										{
+											"Modification": "Add",
+											"Amount": 25,
+										},
+										
+								],
 							}
 						],
 					"MinutesUntilReady": 1750,
 				}
-			,
-			"MoveEntries": 
-				[
-					{ "Id": "Cornucopia_Raisins", "BeforeId": "Dried_Fruit" }
-				]
-				
+			},
+			"MoveEntries": [
+					{ "Id": "Cornucopia_Prunes", "BeforeId": "DriedFruit" },
+					{ "Id": "Cornucopia_Raisins", "BeforeId": "DriedFruit" }
+			]
 		}
     ]
 }

@@ -1,7 +1,6 @@
 {
 	"Changes":
 	[
-		// add custom machines
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -63,6 +62,12 @@
 										"Id": "Cornucopia_SmokedCheese",
 										"Triggers": 
 											[
+												{
+													"RequiredItemId": "(O)424",
+												},
+												{
+													"RequiredItemId": "(O)426",
+												},
 												{
 													"RequiredTags":[ "cheese_item" ],
 												}

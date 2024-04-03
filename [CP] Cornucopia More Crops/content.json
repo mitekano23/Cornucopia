@@ -31,6 +31,21 @@
 			"Default": "false",
 			"Description": "Disables grapes and/or white grapes as bushes and reinstates them as standard trellis crops."
 		},
+		"Enhanced Mixed Seeds": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "With Item Extensions Framework, adds some Cornucopia crops to vanilla mixed seeds."
+		},
+		"Rename Cheese Press": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "Changes the name of the Cheese Press to 'Press', and the description to include tofu."
+		},
+		"Retexture Cheese Press": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "Changes the image of the Cheese Press to remove the cheese icon."
+		},
 	},
 	"DynamicTokens": [
 		//crop ExtraHarvestChance values for later testing
@@ -48,11 +63,11 @@
 		},
 		{
 			"Name": "75Percent",
-			"Value": "0.42"
+			"Value": "0.33"
 		},
 		{
 			"Name": "90Percent",
-			"Value": "0.45"
+			"Value": "0.36"
 		},
 	],
     "Changes": [	
@@ -138,16 +153,21 @@
 		},
 		{
 			"Action": "Include",
-			"FromFile": "data/crops.json, data/forage.json, data/fruittrees.json, data/furniture.json, data/giantcrops.json, data/letters.json, data/objectcontexttags.json, data/objects.json, data/teabushes.json, data/wildtrees.json, data/objectreplacements.json"
+			"FromFile": "data/crops.json, data/forage.json, data/fruittrees.json, data/furniture.json, data/giantcrops.json, data/gifttastes.json, data/letters.json, data/multiyieldcrops.json, data/objectcontexttags.json, data/objects.json, data/teabushes.json, data/wildtrees.json, data/objectreplacements.json"
 		},
 		{
 			"Action": "Include",
-			"FromFile": "machines/cheesepress.json, machines/keg.json, machines/loom.json, machines/mill.json, machines/oilmaker.json"
+			"FromFile": "machines/cask.json, machines/cheesepress.json, machines/keg.json, machines/loom.json, machines/mill.json, machines/oilmaker.json"
 		},
 		{
 			"Action": "Include",
 			"When": {"HasMod |contains=spacechase0.SpaceCore": true},
-			"FromFile": "data/objectcategories.json",
+			"FromFile": "data/objectcategories.json, data/multiyieldcrops.json",
+		},
+		{
+			"Action": "Include",
+			"When": {"HasMod |contains=mistyspring.ItemExtensions": true},
+			"FromFile": "data/mixedseeds.json",
 		}
     ]
 }

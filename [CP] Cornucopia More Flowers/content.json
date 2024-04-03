@@ -6,6 +6,11 @@
 			"Default": "true",
 			"Description": "(Recommended) Adds a large variety of 30+ flowers and flowering trees in addition to the essential pack."
 		},
+		"Rose Color Explosion": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "Gives each of the seasonal roses four different colors that can be harvested. (Extra roses are excluded from perfection requirements.)"
+		},
 	},
 	"DynamicTokens": [
 		//crop ExtraHarvestChance values for later testing
@@ -84,7 +89,7 @@
 		// add subfiles
 		{
 			"Action": "Include",
-			"FromFile": "data/crops.json, data/fruittrees.json, data/furniture.json, data/objects.json, data/shop_carpenter.json, data/shop_joja.json, data/shop_pierre.json, data/shop_islandtrader.json, data/shop_marnie.json, data/shop_oasis.json, data/teabushes.json"
+			"FromFile": "data/crops.json, data/fruittrees.json, data/furniture.json, data/gifttastes.json, data/multiyieldcrops.json, data/objects.json, data/objectcontexttags.json, data/shop_carpenter.json, data/shop_joja.json, data/shop_pierre.json, data/shop_islandtrader.json, data/shop_marnie.json, data/shop_oasis.json, data/teabushes.json"
 		},
     ]
 }

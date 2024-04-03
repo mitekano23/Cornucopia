@@ -1,7 +1,6 @@
 {
 	"Changes":
 	[
-		// add custom machines
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -134,20 +133,24 @@
 								"ObjectDisplayName": "[LocalizedText Strings/Objects:Cornucopia_PickledFish %PRESERVED_DISPLAY_NAME]",
 								"PreserveId": "DROP_IN",
 								"CopyPrice": true,
-								"PriceModifiers":
-									[
+								"PriceModifierMode": "Stack",
+								"PriceModifiers": [
 										{
-											"Id": "PickledFish",
 											"Modification": "Multiply",
 											"Amount": 1.5,
-										}
-									],
+										},
+										{
+											"Modification": "Add",
+											"Amount": 50,
+										},
+										
+								],
 							}
 						],
 					"MinutesUntilReady": 4000,
 				},
 				"Cornucopia_SauerkrautRedCabbage": {
-					"Id": "Cornucopia_Sauerkraut",
+					"Id": "Cornucopia_SauerkrautRedCabbage",
 					"Triggers": 
 						[
 							{
@@ -163,11 +166,9 @@
 					"MinutesUntilReady": 4000,
 				}
 			},
-			"MoveEntries": 
-				[
-					{ "Id": "Cornucopia_Sauerkraut", "BeforeId": "Default_Pickled" }
-				]
-				
+			"MoveEntries": [
+					{ "Id": "Cornucopia_SauerkrautRedCabbage", "BeforeId": "Default_Pickled" }
+			]
 		}
     ]
 }

@@ -1,7 +1,6 @@
 {
 	"Changes":
 	[
-		// add custom machines
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -59,6 +58,22 @@
 												}
 											],
 										"MinutesUntilReady": 200,
+									},
+									{
+										"Id": "Cornucopia_HoneyYogurt",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)184",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)Cornucopia_HoneyYogurt",
+												}
+											],
+										"MinutesUntilReady": 360,
 									},
 									{
 										"Id": "Cornucopia_Yogurt",

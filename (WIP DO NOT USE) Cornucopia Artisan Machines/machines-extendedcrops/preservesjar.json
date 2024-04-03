@@ -21,14 +21,31 @@
 						[
 							{
 								"ItemId": "(O)Cornucopia_Kimchi",
+								"CopyPrice": true,
+								"PriceModifierMode": "Stack",
+								"PriceModifiers": [
+										{
+											"Modification": "Multiply",
+											"Amount": 2,
+										},
+										{
+											"Modification": "Add",
+											"Amount": 50,
+										},
+										
+								],
+								
 							}
 						],
 					"MinutesUntilReady": 2160,
 				},
 				"Cornucopia_SauerkrautCabbage": {
-					"Id": "Cornucopia_Sauerkraut",
+					"Id": "Cornucopia_SauerkrautCabbage",
 					"Triggers": 
 						[
+							{
+								"RequiredItemId": "(O)266",
+							},
 							{
 								"RequiredItemId": "(O)Cornucopia_Cabbage",
 							}
@@ -37,11 +54,28 @@
 						[
 							{
 								"ItemId": "(O)Cornucopia_Sauerkraut",
+								"CopyPrice": true,
+								"PriceModifierMode": "Stack",
+								"PriceModifiers": [
+										{
+											"Modification": "Multiply",
+											"Amount": 2,
+										},
+										{
+											"Modification": "Add",
+											"Amount": 50,
+										},
+										
+								],
 							}
 						],
 					"MinutesUntilReady": 4000,
 				}
-			}
+			},
+			"MoveEntries": [
+				{ "Id": "Cornucopia_Kimchi", "BeforeId": "Default_Pickled" },
+				{ "Id": "Cornucopia_SauerkrautCabbage", "BeforeId": "Default_Pickled" }
+			]
 		}
     ]
 }
